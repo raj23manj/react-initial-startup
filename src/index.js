@@ -7,6 +7,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/styles.scss';
+import App from './app';
 
 // without babel preset added it will work
 // ReactDOM.render(
@@ -16,9 +17,17 @@ import './styles/styles.scss';
 //   )
 // );
 
-// after adding babel preset
+// // after adding babel preset
+// ReactDOM.render(
+//   <h1>Hello from js Babel</h1>,
+//   document.querySelector(
+//     '#fromjs'
+//   )
+// );
+
+// adding app component
 ReactDOM.render(
-  <h1>Hello from js Babel</h1>,
+  <App />,
   document.querySelector(
     '#fromjs'
   )

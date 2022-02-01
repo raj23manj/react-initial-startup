@@ -3,3 +3,11 @@ $main-color: orange;
 * {
   color: $main-color;
 }
+
+
+body {
+  .iframe-content {
+    width: 100%;
+    height: 700px;
+  }
+}
